@@ -47,5 +47,4 @@ Tokens can have all different types of scopes that may or may not be required fo
 | GET /series/\<series\_id>           | retrieve\_series    |
 | PUT /series/\<series\_id>           | update\_series      |
 | DELETE /series/\<series\_id>        | delete\_series      |
-|                                     |                     |
 
