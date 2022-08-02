@@ -1,5 +1,5 @@
 # /series
 
-{% swagger src="../.gitbook/assets/data-api.json" path="/series" method="post" %}
-[data-api.json](../.gitbook/assets/data-api.json)
+{% swagger src="../.gitbook/assets/a.json" path="/series" method="post" %}
+[a.json](../.gitbook/assets/a.json)
 {% endswagger %}
