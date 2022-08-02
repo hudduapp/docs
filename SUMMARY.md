@@ -1,10 +1,15 @@
 # Table of contents
 
-* [Welcome!](README.md)
-* [Quick Start](quick-start.md)
-* [What is Huddu](what-is-huddu.md)
-* [API](api/README.md)
-  * [Working with the api](api/working-with-the-api.md)
-  * [/dashboards](api/dashboards.md)
-  * [/series](api/series.md)
-  * [/entries](api/entries.md)
+* [What is Huddu](README.md)
+
+## 👩💻 API
+
+* [Working with the api](api/working-with-the-api.md)
+* [Endpoints](api/endpoints/README.md)
+  * [/dashboards](api/endpoints/dashboards.md)
+  * [/series](api/endpoints/series.md)
+  * [/entries](api/endpoints/entries.md)
+
+## 📶 Dashboard
+
+* [Page 1](dashboard/page-1.md)

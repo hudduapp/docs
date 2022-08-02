@@ -1,21 +1,10 @@
-# Welcome!
+# What is Huddu
 
-## Welcome to MyAPI
+<placeholder image>
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+**Huddu** is an easy-to-use Software as a service, that allows you to save and view analytics about your company's infrastructure and services.
+For instance, you could **collect data about your sales figures, the uptime of your infrastructure, the number of website customers and so much more in one place.**
 
-## Want to jump right in?
+In addition, Huddu allows you to share dashboards **with your teams and even your clients.**
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
-
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
-{% endcontent-ref %}
-
-## Want to deep dive?
-
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Thanks to our wonderful dashboard you can visualize **almost any kind** of analytics data about your company with only a few clicks.
