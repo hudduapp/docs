@@ -1,9 +1,6 @@
 # What is Huddu
 
-<placeholder image>
-
-**Huddu** is an easy-to-use Software as a service, that allows you to save and view analytics about your company's infrastructure and services.
-For instance, you could **collect data about your sales figures, the uptime of your infrastructure, the number of website customers and so much more in one place.**
+**Huddu** is an easy-to-use Software as a service, that allows you to save and view analytics about your company's infrastructure and services. For instance, you could **collect data about your sales figures, the uptime of your infrastructure, the number of website customers and so much more in one place.**
 
 In addition, Huddu allows you to share dashboards **with your teams and even your clients.**
 
