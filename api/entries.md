@@ -1,9 +1,9 @@
-# /dashboards
+# /entries
 
-{% swagger src="../.gitbook/assets/a.json" path="/entries" method="post" %}
+{% swagger src="../.gitbook/assets/a.json" path="/series/{series_id}/entries" method="get" %}
 [a.json](../.gitbook/assets/a.json)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/a.json" path="/series/{series_id}/entries" method="get" %}
+{% swagger src="../.gitbook/assets/a.json" path="/series/{series_id}/entries" method="post" %}
 [a.json](../.gitbook/assets/a.json)
 {% endswagger %}

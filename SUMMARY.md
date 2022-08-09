@@ -5,9 +5,8 @@
 ## 👩💻 API
 
 * [Working with the api](api/working-with-the-api.md)
-* [/dashboards](api/dashboards.md)
 * [/entries](api/entries.md)
-* [/series](api/series.md)
+* [/projects](api/entries-1.md)
 
 ## 📶 Dashboard
 
