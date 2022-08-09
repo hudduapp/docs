@@ -10,7 +10,7 @@
 
 ## 📶 Dashboard
 
-* [Page 1](dashboard/page-1.md)
+* [Accounts](dashboard/page-1.md)
 
 ## 👨💻 SDKs
 
