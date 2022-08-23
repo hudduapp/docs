@@ -10,6 +10,7 @@ description: Components allow a visualization of data on the huddu dashboard
     "description": "string/markdown",
     "avatar_url": "string/link",
     "account": "string/author_id",
+    "preview_url":"string/img",
     "schema": {
         "required_var":"string/type"
     },

@@ -8,22 +8,22 @@ This is the documentation for our public API which allows users to edit items in
 
 Please note that we offer clientside SKDs in python (and soon nodejs).
 
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 If possible we suggest you use the SDKs over accessing the API directly, if you decide to use our API nonetheless you can find documentation generated via the openapi spec in this category.
-
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
+{% content-ref url="entries.md" %}
+[entries.md](entries.md)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### Scopes
