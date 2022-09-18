@@ -2,12 +2,8 @@
 
 * [What is Huddu](README.md)
 
-## 👩💻 👩💻 API
+## ✨ Getting started
 
-* [Schemata](api/schemata/README.md)
-  * [Components](api/schemata/components.md)
-* [Working with the api](api/working-with-the-api.md)
-
-## 📶 Dashboard
-
-* [Accounts](dashboard/page-1.md)
+* [Installation](getting-started/installation.md)
+* [Setup](getting-started/setup.md)
+* [Visualization](getting-started/visualization.md)
