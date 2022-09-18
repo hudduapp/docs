@@ -4,9 +4,9 @@
 
 ## ✨ Getting started
 
-* [Setup](getting-started/setup.md)
-* [Code](getting-started/code.md)
-* [Visualization](getting-started/visualization.md)
+* [1. Setup](getting-started/1.-setup.md)
+* [2. Code](getting-started/2.-code.md)
+* [3. Visualization](getting-started/3.-visualization.md)
 
 ## 💻 SDKs
 
