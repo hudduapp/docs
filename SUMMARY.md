@@ -10,7 +10,9 @@
 
 ## 💻 SDKs
 
-* [Python](sdks/python.md)
+* [Python](sdks/python/README.md)
+  * [Basic example](sdks/python/basic-example.md)
+  * [Monitoring Django](sdks/python/monitoring-django.md)
 * [Java](sdks/java.md)
 
 ## 🧠 Concepts
