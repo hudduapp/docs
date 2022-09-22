@@ -1,3 +1,3 @@
 # Java
 
-\#aLotTodo
+The java SDK is still to be built :smile:
