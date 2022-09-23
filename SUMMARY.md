@@ -18,3 +18,7 @@
 ## 🧠 Concepts
 
 * [Events](concepts/events.md)
+
+## ℹ Other
+
+* [Community](other/community.md)
