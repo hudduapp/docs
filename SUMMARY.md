@@ -22,3 +22,4 @@
 ## ℹ Other
 
 * [Community](other/community.md)
+* [Account Limits](other/account-limits.md)
