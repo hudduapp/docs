@@ -11,9 +11,12 @@
 ## 💻 SDKs
 
 * [Python](sdks/python/README.md)
+  * [Installation](sdks/python/installation.md)
   * [Basic example](sdks/python/basic-example.md)
   * [Monitoring Django](sdks/python/monitoring-django.md)
-* [Java](sdks/java.md)
+* [Java](sdks/java/README.md)
+  * [Installation](sdks/java/installation.md)
+  * [Basic Example](sdks/java/basic-example.md)
 
 ## 🧠 Concepts
 
