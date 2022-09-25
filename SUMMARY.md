@@ -21,6 +21,7 @@
 ## 🧠 Concepts
 
 * [Events](concepts/events.md)
+* [Components](concepts/components.md)
 
 ## ℹ Other
 
