@@ -21,9 +21,12 @@
 ## 🧠 Concepts
 
 * [Events](concepts/events.md)
-* [Components](concepts/components.md)
 
 ## ℹ Other
 
 * [Community](other/community.md)
 * [Account Limits](other/account-limits.md)
+
+## APIs
+
+* [Ingest API](apis/ingest-api.md)
