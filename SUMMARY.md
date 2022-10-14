@@ -30,3 +30,5 @@
 ## APIs
 
 * [Ingest API](apis/ingest-api.md)
+* [Public API / Integrations API](apis/public-api-integrations-api/README.md)
+  * [Accounts](apis/public-api-integrations-api/accounts.md)
