@@ -31,4 +31,8 @@
 
 * [Ingest API](apis/ingest-api.md)
 * [Public API / Integrations API](apis/public-api-integrations-api/README.md)
+  * [Integration Installations](apis/public-api-integrations-api/integration-installations.md)
   * [Accounts](apis/public-api-integrations-api/accounts.md)
+  * [Projects](apis/public-api-integrations-api/projects.md)
+  * [Streams](apis/public-api-integrations-api/streams.md)
+  * [Events](apis/public-api-integrations-api/events.md)
