@@ -16,6 +16,8 @@ Have a project you want to monitor using Huddu? This is the right place! If you 
 
 [✨](https://emojipedia.org/sparkles/) Wonderful, that's half the job!
 
+{% embed url="https://www.loom.com/share/2bf3d5636ef748c5aa2511e7856682fc" %}
+
 #### Implementing Code
 
 Next, we need to publish our events via the Huddu API. The following shows an example of doing so using Python, if you're using a different language, please check the SDKs page.
