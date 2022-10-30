@@ -22,9 +22,8 @@
 
 ## APIs
 
-* [Connectors / Integrations API](apis/connectors-integrations-api/README.md)
-  * [Integration Installations](apis/connectors-integrations-api/integration-installations.md)
-  * [Accounts](apis/connectors-integrations-api/accounts.md)
-  * [Projects](apis/connectors-integrations-api/projects.md)
-  * [Streams](apis/connectors-integrations-api/streams.md)
-  * [Events](apis/connectors-integrations-api/events.md)
+* [Public API](apis/public-api/README.md)
+  * [Accounts](apis/public-api/accounts.md)
+  * [Projects](apis/public-api/projects.md)
+  * [Streams](apis/public-api/streams.md)
+  * [Events](apis/public-api/events.md)

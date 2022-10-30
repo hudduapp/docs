@@ -9,10 +9,10 @@ Have a project you want to monitor using Huddu? This is the right place! If you 
 #### First, let's get a few basic things out of the way:
 
 1. Create an account at [https://huddu.io/](https://huddu.io/) and go to the dashboard
-2. Create a fresh project (you only need to give it a memorable name)
-3. In the project create a new stream, you will be prompted with a dialog asking if you want to create a new connector
-4. Create the bespoke new connector (make sure to check the required scopes. In this case, we want to only publish events to a stream, so choosing **create\_events** should be sufficient)
-5. After creating the connector, you should be able to copy a token, make sure you do as you won't see it ever again.
+2. Create a fresh project (make sure to give it a memorable name)
+3. In the project create a new stream
+4. Once you open the stream, you will get the option to create a new token or pick an old one; For this example create a new token scoped to the project.
+5. After creating the token make sure to copy it by clicking the **show** button on the tokens page
 
 [✨](https://emojipedia.org/sparkles/) Wonderful, that's half the job!
 
@@ -24,7 +24,7 @@ Next, we need to publish our events via the Huddu API. The following shows an ex
 
 ```python
 from huddu import ApiClient
-cl = ApiClient("<connector_api_key>")
+cl = ApiClient("<api_token>")
 
 project_id = "<project_id>"  
 stream_id = "<stream_id>"  
