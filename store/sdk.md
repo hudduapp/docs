@@ -32,7 +32,7 @@ First, we need a few variables (namely a **collection token** and a **collection
 from huddu import Store
 
 
-store =Store(
+store = Store(
     token="<auth_token>", # how to obtain? see above
     collection="<collection_identifier>", # how to obtain? see above
     region="<region>" # how to obtain? see above
@@ -94,8 +94,8 @@ store.put(
 ## Delete
 
 {% tabs %}
-{% tab title="First Tab" %}
-```
+{% tab title="Python" %}
+```python
 store.delete(
     id: str
 )
