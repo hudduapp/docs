@@ -18,7 +18,7 @@ Examples:
 1. Login at [https://huddu.io/login](https://huddu.io/login)
 2. Create a  fresh project
 3. Within that project create a collection and copy its **collection identifier** on the dashboard.
-4. Start writing code!
+4. Start writing [code](sdk.md)!
 
 Something failed? Please feel free to ask the [community!](../other/community.md)&#x20;
 
