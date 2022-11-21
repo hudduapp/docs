@@ -39,8 +39,70 @@ store =Store(
 )
 ```
 {% endtab %}
+{% endtabs %}
 
-{% tab title="Second Tab" %}
+## Adding data
 
+The Store class offers the following methods:
+
+* .get() - Get one entry by identifier
+* .put() - Create a new entry
+* .delete() - delete one entry
+* .update() - override an existing entry with new data
+* .fetch() - List entry items with a set limit and skip or even by identifier.
+
+## Get
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+store.get(
+    id: str,
+    start: int = None,
+    end: int = None,
+)
+```
 {% endtab %}
 {% endtabs %}
+
+### Parameters:
+
+* id: the entry identifier
+* start: the line after which the content of the entry should be returned
+* end: the line before which the content of the entry should be returned
+
+## Put
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+store.put(
+    id: str,
+    data: str, 
+    safe: bool = True
+)
+```
+{% endtab %}
+{% endtabs %}
+
+## Parameters:
+
+* id: the entry identifier
+* data: the entry data
+* safe: if true will check if an entry with the identifier already exists to prevent overriding it.
+
+## Delete
+
+{% tabs %}
+{% tab title="First Tab" %}
+```
+store.delete(
+    id: str
+)
+```
+{% endtab %}
+{% endtabs %}
+
+## Parameters
+
+* id: the entry identifier
