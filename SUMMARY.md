@@ -3,6 +3,8 @@
 ## General
 
 * [About Huddu](README.md)
+* [FAQs](general/faqs.md)
+* [Common Issues](general/common-issues.md)
 
 ## Store
 
