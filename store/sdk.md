@@ -68,8 +68,8 @@ store.get(
 ### Parameters:
 
 * id: the entry identifier
-* start: the line after which the content of the entry should be returned
-* end: the line before which the content of the entry should be returned
+* start: the line after which the content of the entry should be returned (optional)
+* end: the line before which the content of the entry should be returned (optional)
 
 ## Put
 
@@ -89,7 +89,7 @@ store.put(
 
 * id: the entry identifier
 * data: the entry data
-* safe: if true will check if an entry with the identifier already exists to prevent overriding it.
+* safe: if true will check if an entry with the identifier already exists to prevent overriding it. (optional)
 
 ## Delete
 
@@ -106,3 +106,45 @@ store.delete(
 ## Parameters
 
 * id: the entry identifier
+
+## Update
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+store.update(
+    id: str,
+    data: str
+)
+```
+{% endtab %}
+{% endtabs %}
+
+## Parameters
+
+* id: the entry identifier
+* data: the entry data
+
+## Fetch
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+store.fetch(
+    ids: List[str] = None,
+    skip: int = 0,
+    limit: int = 25,
+    start: int = None,
+    end: int = None,
+)
+```
+{% endtab %}
+{% endtabs %}
+
+### Parameters
+
+* ids: List of ids to query (optional)
+* skip: Number of items to skip from results (defaults to 0)
+* limit: Number of items to limit to from results (defaults to 25)
+* start: the line after which the content of the entry should be returned (optional)
+* end: the line before which the content of the entry should be returned (optional)
