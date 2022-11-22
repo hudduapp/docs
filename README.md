@@ -1,7 +1,26 @@
-# What is Huddu
+# About Huddu
 
-**Huddu** is an easy-to-use Software as a service, that allows you to save and view analytics about your company's infrastructure and services. For instance, you could **collect data about your sales figures, the uptime of your infrastructure, the number of website customers and so much more in one place.**
+## Intro
 
-In addition, Huddu allows you to share dashboards **with your teams and even your clients.**
+Huddu is a cloud service that tries to put an emphasis on being **developer friendly**.
 
-Thanks to our wonderful dashboard you can visualize **almost any kind** of analytics data about your company with only a few clicks.
+## Offerings
+
+The Huddu platforms offers a simple and secure abstraction around storing (large) data in so-called documents, which are at the core of our offerings.
+
+One key mission of ours is to really keep things as simple as possible. Here's the tooling to back that up:
+
+* [Huddu Store](store/about.md) (beta): Simple key, value store of structured and unstructured data
+
+## Support
+
+If you find yourself with any questions, we're very happy to help!
+
+* [Community](other/community.md)
+
+## Huddu Store
+
+Store is our simple key, value store for structured and unstructured data
+
+* [About Huddu Store](store/about.md): General information about Huddu Store
+* [Huddu Store SDK](store/sdk.md): SDK documentation for Huddu Store

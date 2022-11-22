@@ -1,10 +1,8 @@
 # Table of contents
 
-* [What is Huddu](README.md)
+## General
 
-## ✨ Getting started
-
-* [Speedrun Huddu](getting-started/speedrun-huddu.md)
+* [About Huddu](README.md)
 
 ## Store
 
@@ -12,7 +10,7 @@
 * [SDK](store/sdk.md)
 * [Dashboard](store/dashboard.md)
 
-## ℹ Other
+## Other
 
 * [Community](other/community.md)
 * [Account Limits](other/account-limits.md)
