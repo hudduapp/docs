@@ -19,4 +19,7 @@
 ## Other
 
 * [Community](other/community.md)
-* [Limitations](other/limitations.md)
+
+## Platform
+
+* [Subscriptions](platform/subscriptions.md)
