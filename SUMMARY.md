@@ -10,7 +10,11 @@
 
 * [About](store/about.md)
 * [SDK](store/sdk.md)
-* [Dashboard](store/dashboard.md)
+
+## Drive
+
+* [About](drive/about.md)
+* [SDK](drive/sdk.md)
 
 ## Other
 
