@@ -1,6 +1,6 @@
 # SDK
 
-The Huddu SDK is the simplest way to create key, value pairs on Huddu. As of now only one language (namely python) is supported with plans for nodejs and java to follow suit soon!
+The Huddu SDK is the simplest way to create key, value pairs on Huddu. For now there's support for Java and Python with plans for Nodejs to follow soon.
 
 Any languages to add to that list? Tell us in a [community channel!](../other/community.md)
 
@@ -15,6 +15,35 @@ pip install huddu
 {% hint style="info" %}
 It's great practice to keep all your requirements in a requirements.txt file!
 {% endhint %}
+
+Github Repository: [https://github.com/hudduapp/huddu-python](https://github.com/hudduapp/huddu-python)
+{% endtab %}
+
+{% tab title="Java" %}
+For Maven (in pom.xml):
+
+1. Add the JitPack repository in \<repositories>
+
+```xml
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+
+2\.  Add the dependency to \<dependencies> (ideally choose a commit as the version)
+
+```xml
+<dependency>
+    <groupId>com.github.hudduapp</groupId>
+    <artifactId>huddu-java</artifactId>
+    <version>v1-SNAPSHOT</version>
+</dependency>
+```
+
+For more information check: [https://jitpack.io/#hudduapp/huddu-java](https://jitpack.io/#hudduapp/huddu-java/v1-SNAPSHOT)
+
+Github Respository: [https://github.com/hudduapp/huddu-java](https://github.com/hudduapp/huddu-java)
 {% endtab %}
 {% endtabs %}
 
@@ -39,9 +68,29 @@ store = Store(
 )
 ```
 {% endtab %}
+
+{% tab title="Java" %}
+```java
+package org.example;
+
+
+import com.huddu.Store;
+import com.huddu._exceptions.APIException;
+
+public class Main {
+    public static void main(String[] args) throws APIException {
+        Store store = new Store(
+                "<auth_token>",
+                "<collection_identifier>",
+                "<region>"
+        );
+    }
+}
+```
+{% endtab %}
 {% endtabs %}
 
-## Adding data
+## Working with data
 
 The Store class offers the following methods:
 
@@ -60,6 +109,16 @@ store.get(
     id: str,
     start: int = None,
     end: int = None,
+)
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+store.get(
+    String id,
+    int start,
+    int end
 )
 ```
 {% endtab %}
@@ -83,6 +142,16 @@ store.put(
 )
 ```
 {% endtab %}
+
+{% tab title="Java" %}
+```java
+store.put(
+    String id,
+    Object data,
+    boolean safe
+)
+```
+{% endtab %}
 {% endtabs %}
 
 ## Parameters:
@@ -101,6 +170,14 @@ store.delete(
 )
 ```
 {% endtab %}
+
+{% tab title="Java" %}
+```java
+store.delete(
+    String id
+)
+```
+{% endtab %}
 {% endtabs %}
 
 ## Parameters
@@ -115,6 +192,15 @@ store.delete(
 store.update(
     id: str,
     data: str
+)
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+store.update(
+    String id,
+    Object data
 )
 ```
 {% endtab %}
@@ -136,6 +222,18 @@ store.fetch(
     limit: int = 25,
     start: int = None,
     end: int = None,
+)
+```
+{% endtab %}
+
+{% tab title="Untitled" %}
+```java
+store.fetch(
+    ArrayList ids,
+    int skip,
+    int limit,
+    int start,
+    int end
 )
 ```
 {% endtab %}
