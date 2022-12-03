@@ -7,19 +7,20 @@ Any languages to add to that list? Tell us in a [community channel!](/platform/o
 ## Installation
 
 === "Python"
-`    pip install huddu
-   `
+
+    ```bash
+    pip install huddu
+    ```
 
     !!! info
-        It's great practice to keep all your requirements in a requirements.txt file!
-
-
+        It's great practice to keep all your packages in a requirements.txt file!
+    
     Github Repository: [https://github.com/hudduapp/huddu-python](https://github.com/hudduapp/huddu-python)
 
 === "Java"
-For Maven (in pom.xml):
+    For Maven (in pom.xml):
 
-    1. Add the JitPack repository in \<repositories>
+    1. Add the JitPack repository in `<repositories>`
 
     ```xml
     <repository>
@@ -28,7 +29,7 @@ For Maven (in pom.xml):
     </repository>
     ```
 
-    2\.  Add the dependency to \<dependencies> (ideally choose a commit as the version)
+    2.  Add the dependency to `<dependencies>` (ideally choose a commit as the version, like `v1-b3a318b`)
 
     ```xml
     <dependency>
@@ -51,9 +52,10 @@ First, we need a few variables (namely a **collection token** and a **collection
 3. In the same drawer, you will find the region identifier. (in future versions of the sdk you won't have to specify this)
 
 === "Python"
-```python
-from huddu import Store
 
+    ```python
+    from huddu import Store
+    
     store = Store(
         token="<auth_token>", # how to obtain? see above
         collection="<collection_identifier>", # how to obtain? see above
@@ -62,9 +64,10 @@ from huddu import Store
     ```
 
 === "Java"
-```java
-package org.example;
 
+    ```java
+    package org.example;
+    
     import com.huddu.Store;
     import com.huddu._exceptions.APIException;
 
@@ -92,24 +95,26 @@ The Store class offers the following methods:
 ## Get
 
 === "Python"
-`python
+    
+    ```python
     store.get(
         id: str,
         start: int = None,
         end: int = None,
     )
-    `
+    ```
 
 === "Java"
-`java
+    
+    ```java
     store.get(
         String id,
         int start,
         int end
     )
-    `
+    ```
 
-### Parameters:
+### Parameters
 
 - id: the entry identifier
 - start: the line after which the content of the entry should be returned (optional)
@@ -118,24 +123,26 @@ The Store class offers the following methods:
 ## Put
 
 === "Python"
-`python
+    
+    ```python
     store.put(
         id: str,
-        data: str, 
+        data: str,
         safe: bool = True
     )
-    `
+    ```
 
 === "Java"
-`java
+    
+    ```java
     store.put(
         String id,
         Object data,
         boolean safe
     )
-    `
+    ```
 
-## Parameters:
+### Parameters
 
 - id: the entry identifier
 - data: the entry data
@@ -144,42 +151,46 @@ The Store class offers the following methods:
 ## Delete
 
 === "Python"
-`python
+    
+    ```python
     store.delete(
         id: str
     )
-    `
+    ```
 
 === "Java"
-`java
+
+    ```java
     store.delete(
         String id
     )
-    `
+    ```
 
-## Parameters
+### Parameters
 
 - id: the entry identifier
 
 ## Update
 
 === "Python"
-`python
+
+    ```python
     store.update(
         id: str,
         data: str
     )
-    `
+    ```
 
 === "Java"
-`java
+
+    ```java
     store.update(
         String id,
         Object data
     )
-    `
+    ```
 
-## Parameters
+### Parameters
 
 - id: the entry identifier
 - data: the entry data
@@ -187,7 +198,8 @@ The Store class offers the following methods:
 ## Fetch
 
 === "Python"
-`python
+
+    ```python
     store.fetch(
         ids: List[str] = None,
         skip: int = 0,
@@ -195,10 +207,11 @@ The Store class offers the following methods:
         start: int = None,
         end: int = None,
     )
-    `
+    ```
 
 === "Java"
-`java
+    
+    ```java
     store.fetch(
         ArrayList ids,
         int skip,
@@ -206,7 +219,7 @@ The Store class offers the following methods:
         int start,
         int end
     )
-    `
+    ```
 
 ### Parameters
 
@@ -215,3 +228,4 @@ The Store class offers the following methods:
 - limit: Number of items to limit to from results (defaults to 25)
 - start: the line after which the content of the entry should be returned (optional)
 - end: the line before which the content of the entry should be returned (optional)
+

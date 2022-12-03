@@ -6,7 +6,7 @@ The Huddu SDK is the simplest way to upload, read and delete files.
 
 
 === "Python"
-    ```
+    ```bash
     pip install huddu
     ```
     
@@ -25,6 +25,7 @@ First, we need a few variables (namely a **collection token** and a **collection
 
 
 === "Python"
+
     ```python
     from huddu import Drive
     
@@ -49,19 +50,21 @@ The Store class offers the following methods:
 
 
 === "Python"
+
     ```python
     drive.get(
         name: str
     )
     ```
 
-
+### Parameters
 * name: the name of the file you want to retrieve
 
 ## Put
 
 
 === "Python"
+
     ```python
     drive.upload(
         name: str,
@@ -71,7 +74,7 @@ The Store class offers the following methods:
     ```
 
 
-## Parameters:
+### Parameters
 
 * name: the name of the file you want to create
 * data: a string of the data that's contained in the file
@@ -81,6 +84,7 @@ The Store class offers the following methods:
 
 
 === "Python"
+
     ```python
     drive.delete(
         name: str
@@ -88,6 +92,6 @@ The Store class offers the following methods:
     ```
 
 
-## Parameters
+### Parameters
 
 * name: the name of the file you want to delete
