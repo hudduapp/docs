@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+<!-- Render landing page under tabs -->
+{% block tabs %} {{ super() }}
+
+<!-- Additional styles for landing page -->
+<style>
+  /* Application header should be static for the landing page */
+  .md-header {
+    position: initial;
+  }
+
+  /* Remove spacing, as we cannot hide it completely */
+  .md-main__inner {
+    margin: 0;
+  }
+
+  /* Hide main content for now */
+  .md-content {
+    display: none;
+  }
+
+  /* Hide table of contents */
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+      display: none;
+    }
+  }
+
+  /* Hide navigation */
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
+    }
+  }
+</style>
+
+<link rel="stylesheet" href="https://css.huddu.io/index.css" />
+
+<div class="md-grid">
+  <div class="theme-light white w-full">
+    <div class="p-xl"></div>
+    <div class="column gap-xl">
+      <div class="title m-auto">Documentation</div>
+      <div class="text m-auto w-xl text-center">
+        This page offers the documentation for Huddu Store && Huddu Drive as
+        well as a bunch of other knowledge.
+      </div>
+      <a
+        href="/developers"
+        class="btn white mx-auto heading btn-xl btn-secondary"
+        >Get Started</a
+      >
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,46 @@
+site_name: Documentation
+
+theme:
+  favicon: https://css.huddu.io/assets/logo_sans_text.png
+  logo: https://css.huddu.io/assets/logo_sans_text.png
+  name: material
+  custom_dir: "theme"
+  palette:
+    primary: white
+  font: false
+  icon:
+    logo: octicons/terminal-16
+  language: en
+  features:
+    - navigation.tabs
+
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: Duplexes
+      repo: pyco
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - tags
